@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "esnext",
+    "lib": ["es6", "dom"],
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "baseUrl": "src",
+  },
+  "include": ["src/custom.d.ts", "src/**/*.ts", "src/**/*.tsx", "e2e/**/*.ts", "e2e/**/*.tsx", "e2e/**/*.js"],
+}
